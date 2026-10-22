@@ -1,0 +1,16 @@
+[workspace]
+authors = ["parthgupta03 <pg617@cam.ac.uk>"]
+channels = ["conda-forge"]
+name = "titanic"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+jupyter = "*"
